@@ -11,7 +11,7 @@
             "id": "6e8ef0d125969cbc",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {}
             }
           }
@@ -118,7 +118,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "StudyNote/Operating System/Ch. 5 Process Scheduling.md"
+              }
             }
           }
         ]
@@ -138,13 +140,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6e8ef0d125969cbc",
+  "active": "c7897d182811bc97",
   "lastOpenFiles": [
-    "Operating System/Ch. 5 Process Scheduling.md",
-    "Operating System/img/5_multithreaded_multicore_system.png",
-    "Operating System/img/5_memory_stall.png",
-    "Operating System/img",
-    "Operating System",
+    "Study Note",
+    "Study Note/Operating System/img/5_memory_stall.png",
+    "Study Note/Operating System/img/5_multithreaded_multicore_system.png",
+    "Study Note/Operating System/img",
+    "Study Note/Operating System/Ch. 5 Process Scheduling.md",
+    "Study Note/Operating System",
+    "StudyNote/Operating System",
+    "StudyNote/Operating System/Ch. 5 Process Scheduling.md",
     "Untitled.canvas",
     "2024-04-17.md"
   ]
