@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "업무 분리 및 관리 노트.md",
+                "file": "Study Note/Operating System/Ch. 5 Process Scheduling.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "업무 분리 및 관리 노트.md",
+                "file": "Study Note/Operating System/Ch. 5 Process Scheduling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "업무 분리 및 관리 노트.md",
+                "file": "Study Note/Operating System/Ch. 5 Process Scheduling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "업무 분리 및 관리 노트.md"
+                "file": "Study Note/Operating System/Ch. 5 Process Scheduling.md"
               }
             }
           }
@@ -148,16 +148,19 @@
   },
   "active": "6e8ef0d125969cbc",
   "lastOpenFiles": [
-    "StudyNote/Operating System/Ch. 5 Process Scheduling.md",
-    "업무 분리 및 관리 노트.md",
-    "Untitled",
-    "Study Note",
-    "Study Note/Operating System/img/5_memory_stall.png",
-    "Study Note/Operating System/img/5_multithreaded_multicore_system.png",
-    "Study Note/Operating System/img",
+    "Study Note/Operating System/Ch. 6 Synchronization.md",
     "Study Note/Operating System/Ch. 5 Process Scheduling.md",
+    "업무 분리 및 관리 노트.md",
+    "Study Note/Operating System/img/5_multithreaded_multicore_system.png",
+    "Study Note/Operating System/img/5_memory_stall.png",
+    "Study Note/Operating System/img",
     "Study Note/Operating System",
-    "StudyNote/Operating System",
+    "Study Note",
+    "Operating System/Ch. 5 Process Scheduling.md",
+    "Operating System/img/5_multithreaded_multicore_system.png",
+    "Operating System/img/5_memory_stall.png",
+    "Operating System/img",
+    "Operating System",
     "Untitled.canvas",
     "2024-04-17.md"
   ]
