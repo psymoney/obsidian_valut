@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study Note/Operating System/Ch. 5 Process Scheduling.md",
+                "file": "Study Note/Operating System/Ch. 6 Synchronization.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study Note/Operating System/Ch. 5 Process Scheduling.md",
+                "file": "Study Note/Operating System/Ch. 6 Synchronization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study Note/Operating System/Ch. 5 Process Scheduling.md",
+                "file": "Study Note/Operating System/Ch. 6 Synchronization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study Note/Operating System/Ch. 5 Process Scheduling.md"
+                "file": "Study Note/Operating System/Ch. 6 Synchronization.md"
               }
             }
           }
@@ -148,9 +148,10 @@
   },
   "active": "6e8ef0d125969cbc",
   "lastOpenFiles": [
-    "Study Note/Operating System/Ch. 6 Synchronization.md",
-    "Study Note/Operating System/Ch. 5 Process Scheduling.md",
     "업무 분리 및 관리 노트.md",
+    "Study Note/Operating System/Ch. 5 Process Scheduling.md",
+    "Retrospects",
+    "Study Note/Operating System/Ch. 6 Synchronization.md",
     "Study Note/Operating System/img/5_multithreaded_multicore_system.png",
     "Study Note/Operating System/img/5_memory_stall.png",
     "Study Note/Operating System/img",

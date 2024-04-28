@@ -223,6 +223,22 @@ void signal(semaphore *S) {
 }
 ```
 
+## 4. Language-level solution
+
+### 4-1. Monitor
+#### 특징
+- Mutual exclusion: 모니터 내에는 항상 하나의 프로세스만 진입 가능
+- Information hiding: 공유 데이터는 모니터 내의 프로세스만 접근 가능
+- 장점:
+	- 사용 쉬움
+	- deadlock등 에러 발생 가능성 낮음
+- 단점:
+	- 지원하는 언어에서만 사용 가능
+	- 컴파일러가 OS를 이해하고 있어야 함
+#### 구성요소
+- Entry Queue: 모니터 내의 procedure 수 만큼 존재
+- Condition queue: 모니터 내의 특정 이벤트를 기다리는 프로세스가 대기
+- Signaler queue: 모니터에 항상 하나의 신호제공자 큐가 존재, signal() 명령을 실행한 프로세스가 잠시 대기
 
 
 
