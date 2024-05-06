@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study Note/Operating System/Ch. 6 Synchronization.md",
+                "file": "Study Note/Operating System/Ch. 8 Memory Management.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study Note/Operating System/Ch. 6 Synchronization.md",
+                "file": "Study Note/Operating System/Ch. 8 Memory Management.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study Note/Operating System/Ch. 6 Synchronization.md",
+                "file": "Study Note/Operating System/Ch. 8 Memory Management.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study Note/Operating System/Ch. 6 Synchronization.md"
+                "file": "Study Note/Operating System/Ch. 8 Memory Management.md"
               }
             }
           }
@@ -146,12 +146,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6e8ef0d125969cbc",
+  "active": "c7897d182811bc97",
   "lastOpenFiles": [
+    "Study Note/Operating System/img/8_memoery_management_unit.png",
+    "Study Note/Operating System/Ch. 8 Memory Management.md",
+    "Study Note/Operating System/img/8_multistep_processing_of_user_program.png",
+    "Pasted image 20240430053333.png",
+    "Retrospects/April.md",
+    "Study Note/Operating System/Ch. 7 Deadlocks.md",
+    "Study Note/Operating System/Ch. 6 Synchronization.md",
     "업무 분리 및 관리 노트.md",
     "Study Note/Operating System/Ch. 5 Process Scheduling.md",
     "Retrospects",
-    "Study Note/Operating System/Ch. 6 Synchronization.md",
     "Study Note/Operating System/img/5_multithreaded_multicore_system.png",
     "Study Note/Operating System/img/5_memory_stall.png",
     "Study Note/Operating System/img",
