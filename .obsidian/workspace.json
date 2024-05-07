@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ac79b4bebe2cb79d",
@@ -148,12 +149,12 @@
   },
   "active": "c7897d182811bc97",
   "lastOpenFiles": [
-    "Study Note/Operating System/img/8_memoery_management_unit.png",
+    "Study Note/Operating System/Ch. 7 Deadlocks.md",
     "Study Note/Operating System/Ch. 8 Memory Management.md",
+    "Study Note/Operating System/img/8_memoery_management_unit.png",
     "Study Note/Operating System/img/8_multistep_processing_of_user_program.png",
     "Pasted image 20240430053333.png",
     "Retrospects/April.md",
-    "Study Note/Operating System/Ch. 7 Deadlocks.md",
     "Study Note/Operating System/Ch. 6 Synchronization.md",
     "업무 분리 및 관리 노트.md",
     "Study Note/Operating System/Ch. 5 Process Scheduling.md",

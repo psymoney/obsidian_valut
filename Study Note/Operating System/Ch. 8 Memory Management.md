@@ -26,7 +26,7 @@ address binding can be done at steps along the following:
 - if starting location changes, only reload is required for changed value.
 #### Execution time
 - if the process can be moved during its execution from one to another segment, then binding must be delayed until run time.
-- special hardware must be available
+- special hardware(MMU) must support
 - most OS use this method
 
 ![[8_multistep_processing_of_user_program.png]]
@@ -35,16 +35,74 @@ address binding can be done at steps along the following:
 - Physical address: seen by memory unit(loaded into memory)
 ![[8_memoery_management_unit.png]]
 ## 1-4. Dynamic Loading
-with dynamic loading, not entire program will be loaded into memory at once, but splited into routines and only main routine is loaded into memory. only when the program requires another routines it loads the routine so that dynamic loadinig allows the system utilizes more memory space efficiently. 
+with dynamic loading, not entire program will be loaded into memory at once, but splited into routines and only main routine is loaded into memory. only when the program requires another routines it loads the routine so that dynamic loadinig allows the system utilizes memory efficiently. 
 - routines are stored in a relocatable load foramt
 - no operating system supports required.
 
-
 # 2. Memory Allocation
 ## 2-1. Continuous Allocation
+In continuous memory allocation, each process is contained in a single section of memory that is continuous to the section containing the next proces.
+- required policies:
+	- number of processes concurrently -> multi-programming degree
+	- allocated memory size to each process
+	- memory partioning method
+	- memory protection
+### Fragmentation
+#### Internal fragmentation
+- when partion size exceeds process size, remaning space is wasted
+#### External fragmentation
+- unloaded processes leave holes of memory space, and when these holes are not continuous but enough space for entering new process, it cannot be utilized.
 ### 2-1-1. Uni-programming
+- mutli-programming degree = 1
+- only one process exists on memory(simple)
+- disadvantages:
+	- low system resource utilization
+	- low system performance
+	- if program size exceeds memory, cannot load process -> overlay structure, which loads only required area, can resolve this issue. but, user must knows entire program and data structure
 ### 2-1-2. Multiprogramming
 #### 1) Fixed Partition
+- devide memory into fixed size of space in advance
+- each process is loaded into one partition -> process:partition = 1:1
+- number of partition = multi-programming degree
+- simple and low overhead
+- relatively low resource utilization due to internal and external fragmentation
 #### 2) Variable Partition
+- memory is one area initially
+- dynamically allocates space for process -> no internal fragmentation
+- external fragmentation occurs when process leaves
+##### Placement Strategies
+- *First-fit*
+	- select the first partition that has enough space
+	- simple and low overhead
+	- low space utilization
+- *Best-fit*
+	- select the smallest partition in which a process can fit
+	- long searching time
+	- bigger size of partition is available
+	- may have small size of partitions that are hard to utilize
+- *Worst-fit*
+	- select the biggest partition
+	- long searching time
+	- lower occurance of small size partitions
+	- hard to maintain big size of partition for big processes
+- *Next-fit*
+	- similar to first-fit
+	- continue searching the next row from stable table
+	- stablize memory usage frequency
+
+##### Coalescing Holes
+- unite adjacent empty space into one partition
+- conduct when process releases memory and leaves
+- low overhead
+
+#### Storage Compaction
+- join all empty space into one partition
+- high overhead
+	- reallocate all process -> stop processes then change memory address
+	- consume lots of system resource
+
+### REASONS application developer should study memeory management instead leaning on management by OS
+Dynamic allocation system call, such as maloc,  is expensive calculation
+own stable table using memory pool and lower memory allocation time, unlike new operation
 
 ## 2-2. Non-continuous Allocation
